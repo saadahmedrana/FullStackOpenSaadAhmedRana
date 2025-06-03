@@ -1,3 +1,4 @@
+import React from 'react'
 const Part = (props) => {
   return (
     <p>
@@ -5,11 +6,9 @@ const Part = (props) => {
     </p>
   )
 }
-
 const Header = (props) => {
   return <h1>{props.course}</h1>
 }
-
 const Content = (props) => {
   return (
     <div>
